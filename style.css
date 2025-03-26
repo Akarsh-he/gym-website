@@ -34,7 +34,7 @@ nav{
 }
 
 #logo h1{
-    color: blue;
+    color: #0880d9;
     font-weight: 300;
 }
 
@@ -96,8 +96,9 @@ nav{
 }
 
 .btns button{
-    height: 10vh;
-    width: 20vw;
+    cursor: pointer;
+    height: 8vh;
+    width: 15vw;
     background-color: rgb(0, 89, 255);
     border-radius: 10px;
     min-width: 100px;
@@ -136,9 +137,23 @@ nav{
         display: none;
     }
     #left h1{
-        line-height: 8vh;
+        line-height: 20vmin;
+        font-size:13vw;
     }
     .btns{
         width: 100vw;
+    }
+    .btns buttons{
+        height: 10vmin;
+        width: 20vmin;
+    }
+
+    nav img{
+        height: 10vmin;
+        max-width: auto;
+    }
+
+    nav h1{
+        font-size: 7vw;
     }
 }
